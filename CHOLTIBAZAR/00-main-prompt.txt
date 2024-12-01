@@ -1,0 +1,76 @@
+We are making a software and making plans to lounch it on Bangladesh, Bogura, Sherpur 
+
+Service like: 
+1. Food Delivery from resturants to user
+2. Medicine Delivery From Pharmacy to user
+3. Grocery Items Like gas bazar, some fruits, egg 
+
+based on this give me new and uniq name for my brand 
+
+GOOGLE DOCS: https://docs.google.com/document/d/1N8zeQYNz2fT8FflbqNU3v9uxhAgZ_K_7aQsiQHEQNDo/edit?usp=sharing
+
+DB, API, ADMIN, WEB, APP, EMPLOYEE_APP
+
+SERVICE CHARGE: 
+Tech: Domain, Api Host (AWS), App Deploy on Play Store 
+Office Rent, Admin Call Center Minutes
+
+=== SRS ====
+SA, ADMIN
+2. Store Registration: [Restaurants, Pharmacy, Grocery:[fixed_products, not_waste_product]] - Dynamic Store Option
+3. Store Approve: [ADMIN_WITH_PERMISSION]
+4. Store Admin & User -> Can Add, Edit, Update, Delete in their store
+5. User Can order From Web & App
+6. Admin Will Approve the order
+    *FOOD* 
+        Order Confirmation -> YES -> Address Confirm -> YES -> Order Place and Restaurants Confirm (Within 5 Mins)
+                           -> NO          OR         -> NO  -> Admin Will cancel this order
+
+        FOOD Order Place: 
+            Price: 400 BDT
+            Price Total: 400 + dc-> 30 + Platform Fee: 10 + tax 10 = 460 
+            Ready Time: 10min
+            Delivery Time: 10 Min
+            Total Time: Approximately 20-30 mins
+        FOOD Delivering User Track Order:
+            RealTime (Free purpose)
+        FOOD Delivered To User:
+            Payment: COD, ONLINE -> DeliveryMan Will Confirm Payment
+            IF COD or ONLINE: Day End Admin Will Approve And Collect All cash 
+
+        ACCOUNTANT:
+            PAID TO Restaurants: 385 BDT -> 15
+            PAID TO Delivery: 25 BDT -> 5
+            Platform Fee: 10 BDT -> 10
+            Tax: 10 BDT -> 2
+            ===================================
+            Company Own: 15+5+10+2 = 32
+            Per Day 20 Order = 32*20 = 640
+            Per Month 30 Days = 30 * 640 = 19200
+
+        Not Order Place -> 
+            Order Cancel Policy -> 
+                1. User Make Mistakes -> (Call Verify)
+                2. Restaurants Not Eligible -> Reason: Restaurants cant make this food right now
+                    i. User will see interface cancel by Restaurants Or Admin With Reason
+                    ii. Others Restaurants Recommendations
+                3. Delivery Man Accident -> Delivery time will extend + min as per requirement
+                4. User not revived the call ->
+                    1. Delivery Man Will Return With Foods
+                    2. Admin Will Confirm Food is return to Restaurants or Full Loss 
+                    3. ACCOUNTANT -> If Loss Company Will provide the money to Restaurant, 1/2 
+                5. FOOD DESTROY -> Admin Will deal this things -> Who's responsible
+                6. Not Able To Cancel:  
+                    1. Restaurants already make this food
+                    2. Admin -> 50% Pay || 100% Pay
+
+            Return Policy ->
+                1. 
+        
+        
+                          
+
+
+==== CORE REQUIREMENTS ====
+1. Attendance need employee
+2. 
