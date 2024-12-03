@@ -36,3 +36,10 @@ Host: localhost
 Port: 5432
 Username: abuhasan
 Password: 72664228
+
+
+
+
+# For Nginx
+docker pull nginx
+docker run --name my-nginx -p 80:80 -d nginx

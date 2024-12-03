@@ -20,10 +20,10 @@ const table_roles = {
     { "id": 8, "name": "SETTINGS" },
     { "id": 9, "name": "LOGS" },
     { "id": 10, "name": "REPORTS" },
-    {"id": 11, "name": "CATEGORIES"},
-    {"id": 12, "name": "BRANDS"},
-    {"id": 13, "name": "SUPPLIERS"},
-    {"id": 14, "name": "ATTENDANCE"},
+    { "id": 11, "name": "CATEGORIES" },
+    { "id": 12, "name": "BRANDS" },
+    { "id": 13, "name": "SUPPLIERS" },
+    { "id": 14, "name": "ATTENDANCE" },
   ],
   "actions": [
     { "id": 1, "name": "CREATE" },
@@ -46,8 +46,8 @@ const table_roles = {
 
 const table_users = {
   "users": [
-    { "id": 1, "role": "SA", "name": "Super Admin", "email": "", "password": "", "permissions": ["ALL"] },
-    { "id": 2, "role": "ADMIN", "name": "Shorif", "email": "", "password": "", permissions: [], },
+    { "id": 1, "role": "SA", "name": "Super Admin", "email": "", "password": "", "permissions": [{}, {}, {}] },
+    { "id": 2, "role": "ADMIN", "name": "Shorif", "email": "", "password": "", "permissions": [], },
     { "id": 3, "role": "EMPLOYEE", "name": "Employee", "email": "", "password": "" },
     { "id": 4, "role": "USER", "name": "User", "email": "", "password": "" },
     { "id": 5, "role": "STORE_ADMIN", "name": "Store Admin", "email": "", "password": "" },
