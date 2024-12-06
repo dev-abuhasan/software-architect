@@ -46,8 +46,8 @@ const table_roles = {
 
 const table_users = {
   "users": [
-    { "id": 1, "role": "SA", "name": "Super Admin", "email": "", "password": "", "permissions": [{}, {}, {}] },
-    { "id": 2, "role": "ADMIN", "name": "Shorif", "email": "", "password": "", "permissions": [], },
+    { "id": 1, "role": "SA", "name": "Super Admin", "email": "", "password": "", "permissions": ["CHOLTI_BAZAR"] },
+    { "id": 2, "role": "ADMIN", "name": "Shorif", "email": "", "password": "", "permissions": [{ resources: 'USERS', actions: ['CREATE', 'VIEW', 'EDIT', 'DELETE'] }], },
     { "id": 3, "role": "EMPLOYEE", "name": "Employee", "email": "", "password": "" },
     { "id": 4, "role": "USER", "name": "User", "email": "", "password": "" },
     { "id": 5, "role": "STORE_ADMIN", "name": "Store Admin", "email": "", "password": "" },
