@@ -83,6 +83,14 @@ docker-compose up --build
 ```
 
 
+```
+# See the bash
+docker exec -it my-postgres-container bash
+
+```
+
+
+
 
 # For Nginx
 docker pull nginx
