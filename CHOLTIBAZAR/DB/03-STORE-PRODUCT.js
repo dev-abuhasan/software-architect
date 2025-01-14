@@ -66,49 +66,71 @@ const table_products = [
         name: "Product 1",
         description: "Fresh and organic vegetables",
         price: 100,
-        category: "food" || "grocery" || "medicine" || "other",
-        // "vegetables" || "fruits" || "meat" || "clothing" || "baby_food" || "electronics" || "home_appliances" || "furniture" || "books" || "toys" || "stationery" || "cosmetics" || "jewelry" || "sports" || "tools" || "automotive" || "pets" || "gardening" || "party_supplies" || "gifts"
+        category: "food",// "food" || "grocery" || "medicine" || "other"
         variant: [
             {
                 name: "Small Pack",
                 price: 50,
                 quantity: 5,
-                unit: "kg" || "g" || "l" || "ml" || "pcs",
+                unit: "kg", //"kg" || "g" || "l" || "ml" || "pcs",
                 isPrescriptionReq: false,
                 imageUrl: "",
             },
         ],
-        imageUrl: "",
+        imageUrl: "https://res.cloudinary.com/dpzhgdwqw/image/upload/v1736397404/khabar-bela/product/1736397403522.png",
         rating: 4.5,
         isAvailable: true,
         deliveryTime: 20,
-        isRecommended: false,
-        discount: 10,
-        tags: ["organic", "fresh"],
+        // isRecommended: false,
+        discount: 10, // percentage
+        tags: ["organic", "fresh", "vegetables", "fried food", "snacks", "fast food", "healthy", "tasty", "fry", "crispy"],
         minOrderQuantity: 1,
         maxOrderQuantity: 20,
-        variant: [
-            { id: 101, name: "Small Pack", price: 50, quantity: 5, unit: "kg" },
-        ],
-        operationType: "delivery",
+        // operationType: "delivery",
         createdAt: new Date(),
         updatedAt: new Date(),
-        preparationTime: "15 mins",
-        nutritionInfo: { calories: 250, protein: "10g", fat: "5g", carbs: "35g" },
-        allergens: ["nuts"],
-        ingredients: ["flour", "sugar"],
+        // nutritionInfo: { calories: 250, protein: "10g", fat: "5g", carbs: "35g" },
+        // allergens: ["nuts"],
+        // ingredients: ["flour", "sugar"],
         expiryDate: "2025-01-15",
-        tax: 10,
-        finalPrice: 90,
-        deliveryRadius: 5,
-        geoLocation: { latitude: 23.8103, longitude: 90.4125 },
-        views: 120,
+        // tax: 10,
+        // finalPrice: 90,
+        // deliveryRadius: 5,
+        // geoLocation: { latitude: 23.8103, longitude: 90.4125 },
+        // views: 120,
+
+        deliveryOption: [
+            {
+                amount: 30,
+                disabled: 0, // 0 || 1
+                type: 'regular', // 'priority' || 'regular'
+                info: 'Free Delivery Above 999 Taka Order',
+                time: {
+                    expected_time: "2025-01-02T20:00:00Z",// Date()
+                    min_minutes: 5,
+                    max_minutes: 20,
+                }
+            },
+            {
+                amount: 40,
+                disabled: 0, // 0 || 1
+                type: 'priority',
+                info: 'Free Delivery Above 999 Taka Order',
+                time: {
+                    expected_time: "2025-01-02T20:00:00Z", // Date()
+                    min_minutes: 5,
+                    max_minutes: 15,
+                }
+            }
+        ],
         favoritesCount: 35,
         reviews: [
             { userId: 101, rating: 5, comment: "Great quality!" },
         ],
-        vendorName: "Fresh Farm Grocery",
-        vendorRating: 4.7,
-        returnPolicy: "Can be returned within 7 days if unopened.",
-    },
+        vendor: {
+            id: 1,
+            name: "Fresh Farm Grocery",
+            rating: 4.7,
+        }
+    }
 ];
