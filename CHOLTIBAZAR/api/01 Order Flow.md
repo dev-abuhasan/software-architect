@@ -86,7 +86,10 @@ User ->
                         is_available: true,
                         quantity: 1
                     }
-                }
+                },
+                prescriptions: [
+                    {id:'', name: '', imgUrl: ''}
+                ]
                 user_details: {
                     id: 1,
                     name: Demo1,
