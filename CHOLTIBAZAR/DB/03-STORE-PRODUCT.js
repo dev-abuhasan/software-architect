@@ -103,6 +103,7 @@ const table_products = [
             {
                 amount: 30,
                 disabled: 0, // 0 || 1
+                free_delivery_above: 999,
                 type: 'regular', // 'priority' || 'regular'
                 info: 'Free Delivery Above 999 Taka Order',
                 time: {
@@ -115,6 +116,7 @@ const table_products = [
                 amount: 40,
                 disabled: 0, // 0 || 1
                 type: 'priority',
+                free_delivery_above: 1499,
                 info: 'Free Delivery Above 999 Taka Order',
                 time: {
                     expected_time: "2025-01-02T20:00:00Z", // Date()
