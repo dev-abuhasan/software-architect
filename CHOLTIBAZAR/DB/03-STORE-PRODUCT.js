@@ -23,6 +23,8 @@ const table_store = [
                 // "banner_title": "",
                 // "bogo_product_blocks": [],
                 // "bogo_discount_unit": "",
+                free_delivery_above_regular: 999,
+                free_delivery_above_priority: 1499,
                 "closing_time": "2026-01-12T16:26:00.000Z",
                 "condition_type": "single" || "multiple" || "all",
                 // "condition_object": 0,
