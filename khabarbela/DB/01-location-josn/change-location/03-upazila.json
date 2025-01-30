@@ -3,7 +3,7 @@
         "id": 1,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Adamdighi",
         "bn_name": "আদমদিঘী"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Bogra Sadar",
         "bn_name": "বগুড়া সদর"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Dhubchanchia",
         "bn_name": "দুপচাঁচিয়া"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Dhunat",
         "bn_name": "ধুনট"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Gabtali",
         "bn_name": "গাবতলী"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Kahaloo",
         "bn_name": "কাহালু"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Nandigram",
         "bn_name": "নন্দীগ্রাম"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Sariakandi",
         "bn_name": "সারিয়াকান্দি"
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Shajahanpur",
         "bn_name": "শাজাহানপুর"
     },
@@ -75,7 +75,7 @@
         "id": 10,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Sherpur",
         "bn_name": "শেরপুর"
     },
@@ -83,7 +83,7 @@
         "id": 11,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Shibganj",
         "bn_name": "শিবগঞ্জ"
     },
@@ -91,7 +91,7 @@
         "id": 12,
         "districtId": 1,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Sonatola",
         "bn_name": "সোনাতলা"
     },
@@ -99,7 +99,7 @@
         "id": 13,
         "districtId": 2,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Bholahat",
         "bn_name": "ভোলাহাট"
     },
@@ -107,7 +107,7 @@
         "id": 14,
         "districtId": 2,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Chapainawabganj Sadar",
         "bn_name": "চাঁপাইনবাবগঞ্জ সদর"
     },
@@ -115,7 +115,7 @@
         "id": 15,
         "districtId": 2,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Gomostapur",
         "bn_name": "গোমস্তাপুর"
     },
@@ -123,7 +123,7 @@
         "id": 16,
         "districtId": 2,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Nachol",
         "bn_name": "নাচোল"
     },
@@ -131,7 +131,7 @@
         "id": 17,
         "districtId": 2,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Shibganj",
         "bn_name": "শিবগঞ্জ"
     },
@@ -139,7 +139,7 @@
         "id": 18,
         "districtId": 3,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Akklepur",
         "bn_name": "আক্কেলপুর"
     },
@@ -147,7 +147,7 @@
         "id": 19,
         "districtId": 3,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Joypurhat Sadar",
         "bn_name": "জয়পুরহাট সদর"
     },
@@ -155,7 +155,7 @@
         "id": 20,
         "districtId": 3,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Kalai",
         "bn_name": "কালাই"
     },
@@ -163,7 +163,7 @@
         "id": 21,
         "districtId": 3,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Khetlal",
         "bn_name": "ক্ষেতলাল"
     },
@@ -171,7 +171,7 @@
         "id": 22,
         "districtId": 3,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Panchbibi",
         "bn_name": "পাঁচবিবি"
     },
@@ -179,7 +179,7 @@
         "id": 23,
         "districtId": 4,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Atrai",
         "bn_name": "আত্রাই"
     },
@@ -187,7 +187,7 @@
         "id": 24,
         "districtId": 4,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Badalgachhi",
         "bn_name": "বদলগাছি"
     },
@@ -195,7 +195,7 @@
         "id": 25,
         "districtId": 4,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Dhamuirhat",
         "bn_name": "ধামইরহাট"
     },
@@ -203,7 +203,7 @@
         "id": 26,
         "districtId": 4,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Mahadebpur",
         "bn_name": "মহাদেবপুর"
     },
@@ -211,7 +211,7 @@
         "id": 27,
         "districtId": 4,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Manda",
         "bn_name": "মান্দা"
     },
@@ -219,7 +219,7 @@
         "id": 28,
         "districtId": 4,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Naogaon Sadar",
         "bn_name": "নওগাঁ সদর"
     },
@@ -227,7 +227,7 @@
         "id": 29,
         "districtId": 4,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Niamatpur",
         "bn_name": "নিয়ামতপুর"
     },
@@ -235,7 +235,7 @@
         "id": 30,
         "districtId": 4,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Patnitala",
         "bn_name": "পত্নীতলা"
     },
@@ -243,7 +243,7 @@
         "id": 31,
         "districtId": 4,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Porsa",
         "bn_name": "পোরশা"
     },
@@ -251,7 +251,7 @@
         "id": 32,
         "districtId": 4,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Raninagar",
         "bn_name": "রাণীনগর"
     },
@@ -259,7 +259,7 @@
         "id": 33,
         "districtId": 4,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Sapahar",
         "bn_name": "সাপাহার"
     },
@@ -267,7 +267,7 @@
         "id": 34,
         "districtId": 5,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Bagatipara",
         "bn_name": "বাগাতিপাড়া"
     },
@@ -275,7 +275,7 @@
         "id": 35,
         "districtId": 5,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Baraigram",
         "bn_name": "বড়াইগ্রাম"
     },
@@ -283,7 +283,7 @@
         "id": 36,
         "districtId": 5,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Digapatia",
         "bn_name": "দিঘাপতিয়া"
     },
@@ -291,7 +291,7 @@
         "id": 37,
         "districtId": 5,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Gurudaspur",
         "bn_name": "গুরুদাসপুর"
     },
@@ -299,7 +299,7 @@
         "id": 38,
         "districtId": 5,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Lalpur",
         "bn_name": "লালপুর"
     },
@@ -307,7 +307,7 @@
         "id": 39,
         "districtId": 5,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Madhnagar",
         "bn_name": "মাধনগর"
     },
@@ -315,7 +315,7 @@
         "id": 40,
         "districtId": 5,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Natore Sadar",
         "bn_name": "নাটোর সদর"
     },
@@ -323,7 +323,7 @@
         "id": 41,
         "districtId": 5,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Singra",
         "bn_name": "সিংড়া"
     },
@@ -331,7 +331,7 @@
         "id": 42,
         "districtId": 6,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Atghoria",
         "bn_name": "আটঘরিয়া"
     },
@@ -339,7 +339,7 @@
         "id": 43,
         "districtId": 6,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Bera",
         "bn_name": "বেড়া"
     },
@@ -347,7 +347,7 @@
         "id": 44,
         "districtId": 6,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Bhangura",
         "bn_name": "ভাঙ্গুড়া"
     },
@@ -355,7 +355,7 @@
         "id": 45,
         "districtId": 6,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Chatmohar",
         "bn_name": "চাটমোহর"
     },
@@ -363,7 +363,7 @@
         "id": 46,
         "districtId": 6,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Faridpur",
         "bn_name": "ফরিদপুর"
     },
@@ -371,7 +371,7 @@
         "id": 47,
         "districtId": 6,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Ishurdi",
         "bn_name": "ঈশ্বরদী"
     },
@@ -379,7 +379,7 @@
         "id": 48,
         "districtId": 6,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Pabna Sadar",
         "bn_name": "পাবনা সদর"
     },
@@ -387,7 +387,7 @@
         "id": 49,
         "districtId": 6,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Santhia",
         "bn_name": "সাঁথিয়া"
     },
@@ -395,7 +395,7 @@
         "id": 50,
         "districtId": 6,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Sujanagar",
         "bn_name": "সুজানগর"
     },
@@ -403,7 +403,7 @@
         "id": 51,
         "districtId": 7,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Bagha",
         "bn_name": "বাঘা"
     },
@@ -411,7 +411,7 @@
         "id": 52,
         "districtId": 7,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Bagmara",
         "bn_name": "বাগমারা"
     },
@@ -419,7 +419,7 @@
         "id": 53,
         "districtId": 7,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Charghat",
         "bn_name": "চারঘাট"
     },
@@ -427,7 +427,7 @@
         "id": 54,
         "districtId": 7,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Durgapur",
         "bn_name": "দুর্গাপুর"
     },
@@ -435,7 +435,7 @@
         "id": 55,
         "districtId": 7,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Godagari",
         "bn_name": "গোদাগাড়ী"
     },
@@ -443,7 +443,7 @@
         "id": 56,
         "districtId": 7,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Mohonpur",
         "bn_name": "মোহনপুর"
     },
@@ -451,7 +451,7 @@
         "id": 57,
         "districtId": 7,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Paba",
         "bn_name": "পবা"
     },
@@ -459,7 +459,7 @@
         "id": 58,
         "districtId": 7,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Puthia",
         "bn_name": "পুঠিয়া"
     },
@@ -467,7 +467,7 @@
         "id": 59,
         "districtId": 7,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Tanore",
         "bn_name": "তানোর"
     },
@@ -475,7 +475,7 @@
         "id": 60,
         "districtId": 8,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Belkuchi",
         "bn_name": "বেলকুচি"
     },
@@ -483,7 +483,7 @@
         "id": 61,
         "districtId": 8,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Chauhali",
         "bn_name": "চৌহালী"
     },
@@ -491,7 +491,7 @@
         "id": 62,
         "districtId": 8,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Kamarkhand",
         "bn_name": "কামারখন্দ"
     },
@@ -499,7 +499,7 @@
         "id": 63,
         "districtId": 8,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Kazipur",
         "bn_name": "কাজীপুর"
     },
@@ -507,7 +507,7 @@
         "id": 64,
         "districtId": 8,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Raigonj",
         "bn_name": "রায়গঞ্জ"
     },
@@ -515,7 +515,7 @@
         "id": 65,
         "districtId": 8,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Shahjadpur",
         "bn_name": "শাহজাদপুর"
     },
@@ -523,7 +523,7 @@
         "id": 66,
         "districtId": 8,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Sirajganj Sadar",
         "bn_name": "সিরাজগঞ্জ সদর"
     },
@@ -531,7 +531,7 @@
         "id": 67,
         "districtId": 8,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Tarash",
         "bn_name": "তাড়াশ"
     },
@@ -539,7 +539,7 @@
         "id": 68,
         "districtId": 8,
         "divisionId": 1,
-        "has_subarea": 0,
+        "has_subarea": false,
         "name": "Ullapara",
         "bn_name": "উল্লাপাড়া"
     }

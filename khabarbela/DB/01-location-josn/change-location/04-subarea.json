@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "districtId": 1,
+        "divisionId": 1,
+        "upazillaId": 1,
+        "has_subarea": false,
+        "name": "Dhunut Mor",
+        "bn_name": "ধুনুট মোড়"
+    }
+]
