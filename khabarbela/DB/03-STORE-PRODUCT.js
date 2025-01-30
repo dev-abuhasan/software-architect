@@ -4,18 +4,18 @@ const table_store = [
         userId: 1,
         name: "Main Store",
         description: "Main Store",
-        location_id: 1,
+        // location_id: 1,
         address: "Bikal Bazar, Sherpur, Bogura, Rajshahi",
         imageUrl: "",
         rating: 4.5,
-        isAvailable: true,
+        isAvailable: true, // true || false
         schedules: [
             {
                 id: 0,
-                weekday: 1,
-                opening_type: "delivering",
-                opening_time: "11:00 AM",
-                closing_time: "22:30 PM"
+                weekend: 'FRIDAY', // "SATURDAY" || "SUNDAY" || "MONDAY" || "TUESDAY" || "WEDNESDAY" || "THURSDAY" || "FRIDAY" 
+                type: "delivering", // "delivering" || "pickup"
+                opening_time: "11:00 AM", // Valid time format
+                closing_time: "22:30 PM" // Valid time format
             }
         ],
         discounts: [
@@ -66,7 +66,8 @@ const table_products = [
         id: 1,
         storeId: 1,
         name: "Product 1",
-        description: "Fresh and organic vegetables",
+        strength: '100mg',
+        description: "Fresh and organic vegetables <p>Test</p>", //HTML String
         price: 100,
         category: "food",// "food" || "grocery" || "medicine" || "other"
         variant: [
@@ -88,23 +89,13 @@ const table_products = [
         tags: ["organic", "fresh", "vegetables", "fried food", "snacks", "fast food", "healthy", "tasty", "fry", "crispy"],
         minOrderQuantity: 1,
         maxOrderQuantity: 20,
-        // operationType: "delivery",
         createdAt: new Date(),
         updatedAt: new Date(),
-        // nutritionInfo: { calories: 250, protein: "10g", fat: "5g", carbs: "35g" },
-        // allergens: ["nuts"],
-        // ingredients: ["flour", "sugar"],
         expiryDate: "2025-01-15",
-        // tax: 10,
-        // finalPrice: 90,
-        // deliveryRadius: 5,
-        // geoLocation: { latitude: 23.8103, longitude: 90.4125 },
-        // views: 120,
-
         deliveryOption: [
             {
                 amount: 30,
-                disabled: 0, // 0 || 1
+                disabled: true, // true || false
                 free_delivery_above: 999,
                 type: 'regular', // 'priority' || 'regular'
                 info: 'Free Delivery Above 999 Taka Order',
@@ -119,7 +110,7 @@ const table_products = [
                 disabled: 0, // 0 || 1
                 type: 'priority',
                 free_delivery_above: 1499,
-                info: 'Free Delivery Above 999 Taka Order',
+                info: 'Free Delivery Above 1499 Taka Order',
                 time: {
                     expected_time: "2025-01-02T20:00:00Z", // Date()
                     min_minutes: 5,
