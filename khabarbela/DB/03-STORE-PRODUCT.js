@@ -1,63 +1,58 @@
 const table_store = [
     {
         id: 1,
-        userId: 1,
+        ownerId: 1,
         name: "Main Store",
-        description: "Main Store",
         // location_id: 1,
+        contactNumber: "01712345678",
+        email: "",
+        location: {
+            type: "Point", // "Point" || "LineString" || "Polygon"
+            coordinates: [89.408, 24.897],
+            long: 89.408,
+            lati: 24.897,
+        },
         address: "Bikal Bazar, Sherpur, Bogura, Rajshahi",
+        description: "Main Store",
         imageUrl: "",
         rating: 4.5,
         isAvailable: true, // true || false
+        verified: true, // true || false
         schedules: [
             {
-                id: 0,
-                weekend: 'FRIDAY', // "SATURDAY" || "SUNDAY" || "MONDAY" || "TUESDAY" || "WEDNESDAY" || "THURSDAY" || "FRIDAY" 
+                weekendOff: 'FRI', // "SAT" || "SUB" || "MON" || "TUE" || "WED" || "THU" || "FRI" 
                 type: "delivering", // "delivering" || "pickup"
                 opening_time: "11:00 AM", // Valid time format
                 closing_time: "22:30 PM" // Valid time format
             }
         ],
-        discounts: [
-            {
-                // "banner_title": "",
-                // "bogo_product_blocks": [],
-                // "bogo_discount_unit": "",
-                free_delivery_above_regular: 999,
-                free_delivery_above_priority: 1499,
-                "closing_time": "2026-01-12T16:26:00.000Z",
-                "condition_type": "single" || "multiple" || "all",
-                // "condition_object": 0,
-                "condition_ids": [1] || [1, 2, 3] || [1, 2],
-                "discount_amount": 0,
-                "discount_type": "free-delivery",
-                "conditions": null,
-                "daily_limit": 0,
-                "description": "",
-                "discount_text": "",
-                "end_date": "2026-01-12",
-                "file_name": "",
-                "id": 0,
-                "maximum_discount_amount": 0,
-                "minimum_order_value": 0,
-                "name": "",
-                "opening_time": "16:26",
-                "platform_ratio": 0,
-                "promotional_limit": 0,
-                "start_date": "2025-01-12",
-                "vendor_id": 0,
-                "additional_info": {
-                    "calculation": {
-                        "baseOn": null
-                    },
-                    "high_value_action": "ACQUISITION",
-                    "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
-                }
-            }
-        ],
-        // storeNote: "All product prices are set by this restaurant", clientNote 
+        tags: ['grocery', 'vegetables', 'fruits', 'meat', 'fish', 'organic', 'fresh', 'healthy', 'tasty', 'fast food', 'snacks', 'fried food', 'fry', 'crispy', 'medicine'],
+        discount: [], // percentage
+        storeNote: "All product prices are set by this restaurant",
         createdAt: new Date(),
         updatedAt: new Date(),
+    }
+];
+
+const discount = [
+    {
+        id: "DISC001", // Unique identifier for the discount
+        type: "percentage", // Type of discount: "percentage", "fixed", "delivery", "buy_one_get_one", etc.
+        value: 10, // Value of the discount: e.g., 10 for 10%, 5 for $5 off, or 0 for free delivery
+        code: "SAVE10", // Coupon code (optional, if applicable)
+        description: "Get 10% off on your first order", // Description of the discount
+        minOrderAmount: 20,
+        maxDiscountAmount: 5,
+        userGroup: [1, 3, 4, 80], // Ids of users
+        visibleToAll: false, // Whether the discount is visible to all users   
+        isActive: true, // Whether the discount is currently active
+        timeRestrictions: { // Time-based restrictions (optional)
+            startTime: "10:00", // Start time of the discount validity (e.g., "10:00")
+            endTime: "14:00", // End time of the discount validity (e.g., "14:00")
+            daysOfWeek: ["MON", "WED", "FRI"], // "SAT" || "SUB" || "MON" || "TUE" || "WED" || "THU" || "FRI" 
+        },
+        limit: 100, // Total number of times the discount can be redeemed (optional)
+        autoApply: false, // Whether the discount is applied automatically without a coupon code (optional)
     }
 ];
 
@@ -69,8 +64,8 @@ const table_products = [
         strength: '100mg',
         description: "Fresh and organic vegetables <p>Test</p>", //HTML String
         price: 100,
-        category: "food",// "food" || "grocery" || "medicine" || "other"
-        variant: [
+        category: "food", // "food" || "grocery" || "medicine" || "electronics" || "clothing" || "beauty" || "furniture" || "toys" || "books" || "sports" || "automotive" || "jewelry" || "other"
+        variants: [
             {
                 name: "Small Pack",
                 price: 50,
@@ -78,20 +73,21 @@ const table_products = [
                 unit: "kg", //"kg" || "g" || "l" || "ml" || "pcs",
                 isPrescriptionReq: false,
                 imageUrl: "",
+                minOrderQuantity: 1,
+                maxOrderQuantity: 20,
+                discount: 10, // percentage
+                tags: ["organic", "fresh", "vegetables", "fried food", "snacks", "fast food", "healthy", "tasty", "fry", "crispy"],
+                wishlistCount: 10,
+                isAvailable: true,
             },
         ],
         imageUrl: "https://res.cloudinary.com/dpzhgdwqw/image/upload/v1736397404/khabar-bela/product/1736397403522.png",
-        rating: 4.5,
         isAvailable: true,
-        deliveryTime: 20,
+        // deliveryTime: 20,
         // isRecommended: false,
-        discount: 10, // percentage
-        tags: ["organic", "fresh", "vegetables", "fried food", "snacks", "fast food", "healthy", "tasty", "fry", "crispy"],
-        minOrderQuantity: 1,
-        maxOrderQuantity: 20,
+
         createdAt: new Date(),
         updatedAt: new Date(),
-        expiryDate: "2025-01-15",
         deliveryOption: [
             {
                 amount: 30,
@@ -118,11 +114,10 @@ const table_products = [
                 }
             }
         ],
-        favoritesCount: 35,
         reviews: [
             { userId: 101, rating: 5, comment: "Great quality!" },
         ],
-        vendor: {
+        store: {
             id: 1,
             name: "Fresh Farm Grocery",
             rating: 4.7,
