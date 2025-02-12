@@ -88,7 +88,7 @@ User ->
                     }
                 },
                 prescriptions: [
-                    {id:'', name: '', imgUrl: ''}
+                    {id:'', name: '', imageUrl: ''}
                 ]
                 user_details: {
                     id: 1,
